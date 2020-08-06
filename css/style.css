@@ -1837,7 +1837,8 @@
 .block11 .left-block .item .itext .yellow {
     color: #ffea00;
     background: #68334c;
-    padding: 3px 8px
+    padding: 3px 8px;
+    margin-right: 5px
 }
 
 .block11 .left-block .lbottom {
