@@ -473,10 +473,18 @@
 
 .block1 .right-block .form-block .button-line button {
     width: 315px;
-    height: 99px;
-    background: url(../img/button.png) no-repeat left top;
+    height: 79px;
+    /*background: url(../img/button.png) no-repeat left top;*/
     border: none;
-    outline: 0
+    outline: 0;
+    background-color: #a3d720;
+    background: radial-gradient(#efffaf, #a3d720);
+    border-radius: 80px;
+    box-shadow: 2px 10px 1px 0 green;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #666;
 }
 
 .block1 .wrapper {
@@ -487,7 +495,8 @@
     width: 100%;
     float: left;
     background: url(../img/block2.jpg) no-repeat center top;
-    min-height: 970px
+    min-height: 970px;
+    background-size: cover;
 }
 
 .block2 .title-block {
@@ -1147,10 +1156,18 @@
 
 .block4 .right-block .form-block .button-line button {
     width: 315px;
-    height: 99px;
-    background: url(../img/button.png) no-repeat left top;
+    height: 79px;
+    /*background: url(../img/button.png) no-repeat left top;*/
     border: none;
-    outline: 0
+    outline: 0;
+    background-color: #a3d720;
+    background: radial-gradient(#efffaf, #a3d720);
+    border-radius: 80px;
+    box-shadow: 2px 10px 1px 0 green;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #666;
 }
 
 .block4 .right-block .form-block .bottom-line {
@@ -2104,15 +2121,24 @@
     float: left;
     margin-top: 15px;
     margin-left: 43px;
-    text-align: center
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 .block11 .right-block .form-block .button-line button {
     width: 315px;
-    height: 99px;
-    background: url(../img/button.png) no-repeat left top;
+    height: 79px;
+    /*background: url(../img/button.png) no-repeat left top;*/
     border: none;
-    outline: 0
+    outline: 0;
+    background-color: #a3d720;
+    background: radial-gradient(#efffaf, #a3d720);
+    border-radius: 80px;
+    box-shadow: 2px 10px 1px 0 green;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #666;
 }
 
 .block11 .wrapper {
