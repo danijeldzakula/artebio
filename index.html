@@ -17,60 +17,11 @@
         <link rel="stylesheet" type="text/css" href="./css/footer.css">
         <!-- Script -->
         <script src="./js/jquery.min.js"></script>
-        
-        <script>
-            var country = 'RS',
-                lang = 'rs',
-                host = '',
-                tmp_data_to_server = '/',
-                tmp_data_request_id = '320efb3003127d1d98e3f2cfc183dc70',
-                country_list = {
-                    "RS": {
-                        "s1": 3680,
-                        "s2": 0,
-                        "s3": 380,
-                        "s4": 7360,
-                        "discount": "50",
-                        "curr": "RSD",
-                        "specialfields": [],
-                        "rekv": "ООО “НЭТЛАЙН”\u003Cbr\u003E129281 ГОРОД МОСКВА УЛИЦА ИЗУМРУДНАЯ ДОМ 13 КОРПУС 2 ЭТАЖ 1 ПОМ 1 КОМ 2 ОФ 4\u003Cbr\u003E ОГРН: 1187746101597 КПП: 771601001 ИНН: 7716890981",
-                        "campaign": "3407"
-                    }
-                };
-            var list_of_parameters = {
-                "language": "rs",
-                "offer_id": "5515",
-                "landing": "12833",
-                "campaign": "3407",
-                "order_source": "1",
-                "request_id": "320efb3003127d1d98e3f2cfc183dc70",
-                "return_url": ""
-            };
-            var action_url = '#link-to';
-            var source_popup_operator = '13';
-            var source_popup_out = '12';
-            var isJsonEnable = false;
-            var text_item_is_free = 'bepul';
-            /*
-            var KMAText = {
-                'validation_name': 'To\'g\'ri ismni ko\'rsating.',
-                'validation_phone1': 'Telefon raqamida faqat raqamlar, \"+\", \"-\", \"(\", \")\" va bo\'shliqlar bo\'lishi mumkin.',
-                'validation_phone2': 'Telefoningizda juda kam sonli raqam mavjud.',
-                'validation_phone3': 'Telefoningizda juda ko\'p son.',
-                'comebacker_text': 'E\'tibor'
-            };
-            */
-        </script>
-        
-        <script src="./js/custom-functions2.min.js"></script>
+        <script src="./js/script.js"></script>
         <script>
             $(function() {
                 KMA.initCallback(3000);
                 KMA.initComebacker(0);
-                KMA.checkAndSetCountryField(country);
-                KMA.changeDataCountry(country);
-                KMA.changeDataNotCountry(country);
-                //KMA.validateAndSendForm(isJsonEnable, KMAText);
             });
         </script>
     </head>
@@ -84,7 +35,7 @@
                     berishadi</span>
                 </p>
                 <a href="#order_form">
-                <button class="fixedtop__btn" style="text-transform: uppercase;">Poruči odmah</button></a>
+                <button class="fixedtop__btn" style="text-transform: uppercase;">Poručite odmah</button></a>
             </div>
         </div>
         <div class="container">
@@ -95,7 +46,7 @@
                             <div class="iimage">
                                 <img src="./img/x1.png.pagespeed.ic.VPkdOoRX6R.webp">
                             </div>
-                            <div class="itext">Artebio- <span class="bold"> je 100% prirodan proizvod!!</span></div>
+                            <div class="itext">Hiper Drops - <span class="bold"> je 100% prirodan proizvod!!</span></div>
                         </div>
                         <div class="item item2">
                             <div class="iimage"><img src="./img/x2.png.pagespeed.ic.-XzZm2DAfJ.webp">
@@ -121,7 +72,7 @@
                     <div class="title">HIPERTENZIJA JE NEVIDLJIVI UBICA</div>
                     <div class="subtitle-block">
                         <div class="line"></div>
-                        <div class="subtitle">Vratite pritisak na normalu sa Artebiom <span class="dark"> za 10 minuta i to ZAUVEK i </span> bez štete za svoje zdravlje!
+                        <div class="subtitle">Vratite pritisak na normalu sa Hiper Drops-om <span class="dark"> za 10 minuta i to ZAUVEK i </span> bez štete za svoje zdravlje!
                         </div>
                         <div class="line"></div>
                     </div>
@@ -156,17 +107,17 @@
                                             <span class="new_price_val">
                                                 ZA 
                                                 <span class="price_main">
-                                                    <text class="price_land_s1">99</text>
+                                                    <text class="price_land_s1">3680</text>
                                                     <text class="price_land_curr">RSD</text>
                                                 </span>
-                                                * 
+                                                
                                             </span>
                                             <span class="new_price_cur"></span>
                                         </font>
                                     </b>
                                 </span>
                             </span>
-                            <img src="img/xproduct.png.pagespeed.ic.ca3XxjWmKX.webp">
+                            <img src="./img/hiper.png" alt="Hiper Drops" class="intro-img">
                         </div>
                         <div class="sale">
                             <div class="stext">
@@ -174,10 +125,10 @@
                                 <span class="new_price_val">
                                     ZA 
                                     <span class="price_main">
-                                        <text class="price_land_s1">99</text>
+                                        <text class="price_land_s1">3680</text>
                                         <text class="price_land_curr">RSD</text>
                                     </span>
-                                    * 
+                                    
                                 </span>
                             </div>
                         </div>
@@ -192,7 +143,7 @@
                                 </div>
                                 <div class="oldd">
                                     <span>
-                                        <text class="price_land_s4">270</text>
+                                        <text class="price_land_s4">7360</text>
                                         <text class="price_land_curr">RSD</text>
                                     </span>
                                 </div>
@@ -201,10 +152,10 @@
                                     <span class="new_price_val">
                                         ZA 
                                         <span class="price_main">
-                                            <text class="price_land_s1">99</text>
+                                            <text class="price_land_s1">3680</text>
                                             <text class="price_land_curr">RSD</text>
                                         </span>
-                                        * 
+                                        
                                     </span>
                                 </div>
                                 <div class="price old">
@@ -222,18 +173,17 @@
                                     </select>
                                 </div>
                                 <div class="inp-line inp-name">
-                                    <input type="text" name="name" placeholder="Vaše ime" required="" oldvalue="">
+                                    <input type="text" name="name" placeholder="Ime i Prezime" required="" oldvalue="">
                                 </div>
                                 <div class="inp-line inp-phone">
                                     <input type="text" name="phone" placeholder="Broj telefona" required="" oldvalue="">
-                                </div>
+                                </div>                               
                                 <div class="button-line">
-                                    <button type="submit">Poruči</button>
+                                    <button type="submit">Poručite</button>
                                 </div>
-                                <div class="text" style="display: none;">*kursga buyurtma berishda</div>
-                                <input type="hidden" name="s1" class="price_field_s1" value="99">
+                                <input type="hidden" name="s1" class="price_field_s1" value="3680">
                                 <input type="hidden" name="s2" class="price_field_s2" value="0">
-                                <input type="hidden" name="s3" class="price_field_s3" value="99">
+                                <input type="hidden" name="s3" class="price_field_s3" value="3680">
                                 <input type="hidden" name="language" value="uz">
                                 <input type="hidden" name="offer_id" value="5515">
                                 <input type="hidden" name="landing" value="12833">
@@ -318,7 +268,7 @@
                             <div class="text">Srčani udar je pošast našeg vremena!
                                 <br> Stanovništvo postaju sve starije. Ova opasna bolest može vas iznenaditi i u dobi od 35 i 40 godina.
                                 <br>
-                                <br>Lično pacijentima prepisujem Artebio. Vidim poboljšanje. <span class="jigarrang"> Postepeno se pritisak vraća u potpuno normalno stanje. 
+                                <br>Lično pacijentima prepisujem Hiper Drops. Vidim poboljšanje. <span class="jigarrang"> Postepeno se pritisak vraća u potpuno normalno stanje. 
                                 </span> Neprijatni simptomi nestaju: glavobolja, migrena, zujanje u ušima i osećaj „pun naslaga“. Nakon 15-20 dana od prijema, pacijenti se osećaju bolje ujutro i uveče, čak i bez uzimanja preparata.
                             </div>
                         </div>
@@ -330,15 +280,15 @@
                     <div class="title-block">
                         <div class="line"></div>
                         <div class="title">
-                            <span class="violet">GLAVNA </span> NARUDŽBA I PREUZIMANJE *!
+                            <span class="violet">GLAVNA </span> NARUDŽBA I PREUZIMANJE!
                             <span class="violet">
                                 <span class="new_price_val">
                                     ZA 
                                     <span class="price_main">
-                                        <text class="price_land_s1">99</text>
+                                        <text class="price_land_s1">3680</text>
                                         <text class="price_land_curr">RSD</text>
                                     </span>
-                                    *
+                                    
                                 </span>
                                 !
                             </span>
@@ -347,13 +297,15 @@
                         <div class="line"></div>
                     </div>
                     <div class="left-block">
-                        <div class="product"><img src="./img/xproduct2.png.pagespeed.ic.1LtXFc28GR.webp"></div>
+                        <div class="product">
+                            <img src="./img/hiper.png" alt="Hiper Drops" class="block4-img">
+                        </div>
                         <div class="label">
                             <div class="label-text">
                                 da dobijem
                                 <div class="oldd">
                                     <span>
-                                        <text class="price_land_s4">270</text>
+                                        <text class="price_land_s4">7360</text>
                                         <text class="price_land_curr">RSD</text>
                                     </span>
                                 </div>
@@ -361,10 +313,10 @@
                                     <font class="pl_product_price0"></font>
                                     <span class="new_price_val">
                                         <span class="price_main">
-                                            <text class="price_land_s1">99</text>
+                                            <text class="price_land_s1">3680</text>
                                             <text class="price_land_curr">RSD</text>
                                         </span>
-                                        * 
+                                        
                                     </span>
                                 </span>
                             </div>
@@ -384,10 +336,10 @@
                                     <font class="pl_product_price0"></font>
                                     <span class="new_price_val">
                                         <span class="price_main">
-                                            <text class="price_land_s1">99</text>
+                                            <text class="price_land_s1">3680</text>
                                             <text class="price_land_curr">RSD</text>
                                         </span>
-                                        * 
+                                        
                                     </span>
                                     <span class="new_price_cur"></span>
                                 </span>
@@ -405,25 +357,22 @@
                                     </select>
                                 </div>
                                 <div class="inp-line inp-name">
-                                    <input type="text" name="name" placeholder="Vaše ime" required="" oldvalue="">
+                                    <input type="text" name="name" placeholder="Ime i Prezime" required="" oldvalue="">
                                 </div>
                                 <div class="inp-line inp-phone">
                                     <input type="text" name="phone" placeholder="Broj telefona" required="" oldvalue="">
                                 </div>
                                 <div class="textline">
-                                    <div class="ttext">Diqqat!
-                                        <br>Preostala pakovanja za jednu šolju su 
-                                    </div>
+                                    <div class="ttext">Preostala pakovanja</div>
                                     <div class="tline"></div>
-                                    <div class="tnumber"><span class="blink_me"><font class="p_limit_left_text0"><font class="pack_count">60</font>	</font></span> kom</div>
+                                    <div class="tnumber"><span class="blink_me"><font class="p_limit_left_text0"><font class="pack_count">60</font>	</font></span>kom</div>
                                 </div>
                                 <div class="button-line">
-                                    <button type="submit">Poruči</button>
-                                    <span class="primrub" style="display: none;">*kursga buyurtma berishda</span>
+                                    <button type="submit">Poručite</button>
                                 </div>
-                                <input type="hidden" name="s1" class="price_field_s1" value="99">
+                                <input type="hidden" name="s1" class="price_field_s1" value="3680">
                                 <input type="hidden" name="s2" class="price_field_s2" value="0">
-                                <input type="hidden" name="s3" class="price_field_s3" value="99">
+                                <input type="hidden" name="s3" class="price_field_s3" value="3680">
                                 <input type="hidden" name="language" value="uz">
                                 <input type="hidden" name="offer_id" value="5515">
                                 <input type="hidden" name="landing" value="12833">
@@ -462,15 +411,15 @@
                     <div class="right-block">
                         <div class="ritem ritem1">
                             <div class="iimage"><img src="./img/xpic1.png.pagespeed.ic.7EYrUvjulV.webp"></div>
-                            <div class="itext">Idem kod lekara od kad mi je dijagnosticirana hipertenzija 1990. Preparat sam videla u Artebiju. Bez njih, pritisak je rastao. <span class="binafsha"> Nikakvih problema posle perioda korišćenja Artebija. Nisam ga uzimala 4 meseca, pritisak je normalan. </span> Tokom studije, norma pritiska se pomerala sa 180/110 na 130/85.
+                            <div class="itext">Idem kod lekara od kad mi je dijagnosticirana hipertenzija 136800. Preparat sam videla u Hiper Drops. Bez njih, pritisak je rastao. <span class="binafsha"> Nikakvih problema posle perioda korišćenja Hiper Drops-a. Nisam ga uzimala 4 meseca, pritisak je normalan. </span> Tokom studije, norma pritiska se pomerala sa 180/110 na 130/85.
                                 <br>
                                 <br>Marijana Sekulić, 75 godina. Učesnica u istraživanju 2019. godine
                             </div>
                         </div>
                         <div class="ritem ritem2">
                             <div class="iimage"><img src="./img/xpic2.png.pagespeed.ic.RaRxlyMm1J.webp"></div>
-                            <div class="itext">Lekar mi je dijagnostikovao hipertenziju. Patio sam se s tim 25 godina, nisam koristio nikakve veštačke preparate. Samo narodne preparate. <span class="binafsha"> Kada sam saznao za prirodni sastav Artebija, pristao sam da učestvujem u istraživanju.
-                                Pre Artebija, </span> moja norma je bila 170/100, nakon uzimanja terapije i prestao sam da ga koristim. <span class="binafsha">
+                            <div class="itext">Lekar mi je dijagnostikovao hipertenziju. Patio sam se s tim 25 godina, nisam koristio nikakve veštačke preparate. Samo narodne preparate. <span class="binafsha"> Kada sam saznao za prirodni sastav Hiper Drops-a, pristao sam da učestvujem u istraživanju.
+                                Pre Hiper Drops-a, </span> moja norma je bila 170/100, nakon uzimanja terapije i prestao sam da ga koristim. <span class="binafsha">
                                 <br>
                                 <br>Mihajlo Krivokapić, 85 godina. Učesnik u istraživanju 2017. godine
                                 </span>
@@ -492,7 +441,7 @@
                             <button>Sertifikatni ko'rish</button>
                         </div>
                     </div>
-                    <div class="right-text">Temeljna razlika između <span class="violet">Artebija</span> i ostalih je ta što njegove komponente deluju sinergistički (dopunjujući i pojačavajući međusobno kretanje), bez dodataka i nuspojava. Jednostavan je za upotrebu, ne izaziva nagle skokove i polako smanjuje pritisak prema normi godina. Uzimanjem Artebio terapije, ne samo da ćete neko vreme stabilizovati pritisak, već ćete u potpunosti ukloniti uzrok hipertenzije.
+                    <div class="right-text">Temeljna razlika između <span class="violet">Hiper Drops-a </span> i ostalih je ta što njegove komponente deluju sinergistički (dopunjujući i pojačavajući međusobno kretanje), bez dodataka i nuspojava. Jednostavan je za upotrebu, ne izaziva nagle skokove i polako smanjuje pritisak prema normi godina. Uzimanjem <span class="violet">Hiper Drops </span> terapije, ne samo da ćete neko vreme stabilizovati pritisak, već ćete u potpunosti ukloniti uzrok hipertenzije.
                     </div>
                 </div>
             </div>
@@ -519,40 +468,38 @@
                     <div class="faq-block">
                         <div class="item item1">
                             <div class="iicon"><img src="./img/xicon7.png.pagespeed.ic.x_r5YUSVdX.webp"></div>
-                            <div class="iquestion">VEOMA sam zabrinut zbog povećanja pritiska. MOLIM VAS: MOŽE LI MI ARTEBIO POMOĆI?
+                            <div class="iquestion">VEOMA sam zabrinut zbog povećanja pritiska. MOLIM VAS: MOŽE LI MI Hiper Drops POMOĆI?
                             </div>
                             <div class="itext">
-                                Da, Artebio pomaže u snižavanju krvnog pritiska. Njegova glavna funkcija je upravo normalizacija pritiska u skladu sa godinama. Glavni sastojak Artebija - ekstrakt Astragalusa, ima već poznata svojstva u vezi sa snižavanjem krvnog pritiskom.
+                                Da, Hiper Drops pomaže u snižavanju krvnog pritiska. Njegova glavna funkcija je upravo normalizacija pritiska u skladu sa godinama. Glavni sastojak Hiper Drops-a - ekstrakt Astragalusa, ima već poznata svojstva u vezi sa snižavanjem krvnog pritiskom.
                             </div>
                         </div>
                         <div class="item item2">
                             <div class="iicon"><img src="./img/xicon7.png.pagespeed.ic.x_r5YUSVdX.webp"></div>
-                            <div class="iquestion">MOGU LI LJUDI SA ALERGIJAMA DA KORISTE ARTEBIO? </div>
+                            <div class="iquestion">MOGU LI LJUDI SA ALERGIJAMA DA KORISTE Hiper Drops? </div>
                             <div class="itext">
-                               Da, Artebio se može uzimati sa svim vrstama alergija. Sastav preparata sadrži samo prirodne sastojke. Svi su prošli klinička ispitivanja, koje su rezultirala uspehom. Saznajte kako Artebio snižava pritisak na telo bez hemijskih napada i neželjenih efekata. Ne preporučuje se uzimanje preparata samo u slučaju netolerancije na pojedinačne komponente.
+                               Da, Hiper Drops se može uzimati sa svim vrstama alergija. Sastav preparata sadrži samo prirodne sastojke. Svi su prošli klinička ispitivanja, koje su rezultirala uspehom. Saznajte kako Hiper Drops snižava pritisak na telo bez hemijskih napada i neželjenih efekata. Ne preporučuje se uzimanje preparata samo u slučaju netolerancije na pojedinačne komponente.
                             </div>
                         </div>
                         <div class="item item3">
                             <div class="iicon"><img src="./img/xicon7.png.pagespeed.ic.x_r5YUSVdX.webp"></div>
-                            <div class="iquestion">MOŽE LI ARTEBIO DA RAZVIJE ZAVISNOST? </div>
+                            <div class="iquestion">MOŽE LI Hiper Drops DA RAZVIJE ZAVISNOST? </div>
                             <div class="itext">
-                                Ne. Artebio nema sindrom zavisnosti i odvikavanja jer su sve komponente preparata prirodne. Potrebno je da prođete kompletanu terapiju korišćenja za potpuno rešavanje problema pritiska.
+                                Ne. Hiper Drops nema sindrom zavisnosti i odvikavanja jer su sve komponente preparata prirodne. Potrebno je da prođete kompletanu terapiju korišćenja za potpuno rešavanje problema pritiska.
                             </div>
                         </div>
                         <div class="item item4">
                             <div class="iicon"><img src="./img/xicon7.png.pagespeed.ic.x_r5YUSVdX.webp"></div>
-                            <div class="iquestion">DA LI ARTEBIO ZAISTA POMAŽE U SPREČAVANJU INFARKTA I ŠLOGA?
+                            <div class="iquestion">DA LI Hiper Drops ZAISTA POMAŽE U SPREČAVANJU INFARKTA I ŠLOGA?
                             </div>
                             <div class="itext">
-                               Da, Artebio ne samo da normalizuje i reguliše pritisak u skladu sa godinama, već takođe i tonira krvne sudove. Ovo može smanjiti rizik od srčanog i moždanog udara.
+                               Da, Hiper Drops ne samo da normalizuje i reguliše pritisak u skladu sa godinama, već takođe i tonira krvne sudove. Ovo može smanjiti rizik od srčanog i moždanog udara.
                             </div>
                         </div>
                         <div class="item item5">
                             <div class="iicon"><img src="./img/xicon7.png.pagespeed.ic.x_r5YUSVdX.webp"></div>
                             <div class="iquestion">DA LI ARTEBIA IMA NEŽELJENE EFEKTE? </div>
-                            <div class="itext">
-                                Ne. Artebio se pravi od prirodnih sastojaka, tako da su bilo kakvI neželjenI efekte isključeni.
-                            </div>
+                            <div class="itext">Ne. Hiper Drops se pravi od prirodnih sastojaka, tako da su bilo kakvI neželjenI efekte isključeni.</div>
                         </div>
                         <div class="item item6">
                             <div class="iicon"><img src="./img/xicon7.png.pagespeed.ic.x_r5YUSVdX.webp"></div>
@@ -565,7 +512,7 @@
                             <div class="iicon"><img src="./img/xicon7.png.pagespeed.ic.x_r5YUSVdX.webp"></div>
                             <div class="iquestion">KAKO TREBA ČUVATI ARTEBIJU?</div>
                             <div class="itext">
-                               Artebio je uoptrebljiv dve godine. Treba ga čuvati na temperaturi do 25 ° C, bez direktnog izlaganja sunčevoj svetlosti.
+                               Hiper Drops je uoptrebljiv dve godine. Treba ga čuvati na temperaturi do 25 ° C, bez direktnog izlaganja sunčevoj svetlosti.
                             </div>
                         </div>
                     </div>
@@ -573,21 +520,21 @@
             </div>
             <div class="block10">
                 <div class="wrapper">
-                    <div class="title">KAKO PROIZVODIMO ARTEBIO?</div>
+                    <div class="title">KAKO PROIZVODIMO Hiper Drops?</div>
                     <div class="item-block">
                         <div class="item item1">
-                            <div class="iimg"><img src="./img/xpic9.png.pagespeed.ic.f8-KrfibiV.webp"></div>
+                            <div class="iimg"><img src="./img/forms.png" class="circle-img"></div>
                             <div class="ititle">KORAK 1</div>
                             <div class="itext">
                                 Poručite
-                                <br> Promociju za kupovinu robe  
+                                <br> Promociju za kupovinu preparata  
                                 <span class="bold">
-                                    od 99 RSD
+                                    za
                                     <span class="price_main">
-                                        <text class="price_land_s1">99</text>
+                                        <text class="price_land_s1">3680</text>
                                         <text class="price_land_curr">RSD</text>
                                     </span>
-                                    *
+                                    
                                 </span>
                             </div>
                         </div>
@@ -615,12 +562,14 @@
                                 <div class="line1">Zbog popularnosti preparata na Internetu, postoje lažni slučajevi prodaje.
                                 </div>
                                 <div class="line2">
-                                   Samo ovde, na zvaničnoj veb stranici Artebija, možete kupiti originalni proizvod.
+                                   Samo ovde, na zvaničnoj veb stranici Hiper Drops-a, možete kupiti originalni proizvod.
                                 </div>
                                 <div class="arrow"><img src="./img/xarrow3.png.pagespeed.ic.PMlsP9AsLO.webp"></div>
                             </div>
                         </div>
-                        <div class="bright"><img src="./img/xproduct4.png.pagespeed.ic.CKnmvEobY-.webp"></div>
+                        <div class="bright">
+                            <img src="./img/hiper.png" alt="Hiper Drops" class="block10-img">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -633,10 +582,10 @@
                             <span class="new_price_val">
                                 ZA 
                                 <span class="price_main">
-                                    <text class="price_land_s1">99</text>
+                                    <text class="price_land_s1">3680</text>
                                     <text class="price_land_curr">RSD</text>
                                 </span>
-                                * 
+                                
                             </span>
                             <span class="new_price_cur"></span>
                         </span>
@@ -644,7 +593,7 @@
                     </div>
                     <div class="subtitle-block">
                         <div class="line"></div>
-                        <div class="subtitle">Dovedite <span class="dark">pritisak do normalizacije sa Artebijom za 10 minuta i to ZAUVEK </span> i bez štete po zdravlje
+                        <div class="subtitle">Dovedite <span class="dark">pritisak do normalizacije sa Hiper Drops-om za 10 minuta i to ZAUVEK </span> i bez štete po zdravlje
                         </div>
                         <div class="line"></div>
                     </div>
@@ -667,27 +616,8 @@
                     </div>
                     <div class="central-block">
                         <div class="product-block">
-                            <span id="product-block">
-                                <span class="plashka2" style="display: none;">
-                                    buyurtma berishda<br>
-                                    <b></b><br>
-                                    bitta to'plam<br>
-                                    <b>
-                                        <font class="plashka2-t">
-                                            <span class="new_price_val">
-                                                ZA 
-                                                <span class="price_main">
-                                                    <text class="price_land_s1">99</text>
-                                                    <text class="price_land_curr">RSD</text>
-                                                </span>
-                                                * 
-                                            </span>
-                                            <span class="new_price_cur"></span>
-                                        </font>
-                                    </b>
-                                </span>
-                            </span>
-                            <img src="./img/xproduct.png.pagespeed.ic.ca3XxjWmKX.webp">
+
+                            <img src="./img/hiper.png" alt="Hiper Drops" class="intro-img">
                         </div>
                         <div class="sale">
                             <div class="stext">
@@ -695,10 +625,10 @@
                                 <span class="new_price_val">
                                     UCHUN 
                                     <span class="price_main">
-                                        <text class="price_land_s1">99</text>
+                                        <text class="price_land_s1">3680</text>
                                         <text class="price_land_curr">RSD</text>
                                     </span>
-                                    * 
+                                    
                                 </span>
                             </div>
                         </div>
@@ -713,7 +643,7 @@
                                 </div>
                                 <div class="oldd">
                                     <span>
-                                        <text class="price_land_s4">270</text>
+                                        <text class="price_land_s4">7360</text>
                                         <text class="price_land_curr">RSD</text>
                                     </span>
                                 </div>
@@ -722,10 +652,10 @@
                                     <span class="new_price_val">
                                         ZA  
                                         <span class="price_main">
-                                            <text class="price_land_s1">99</text>
+                                            <text class="price_land_s1">3680</text>
                                             <text class="price_land_curr">RSD</text>
                                         </span>
-                                        * 
+                                        
                                     </span>
                                 </div>
                                 <div class="price old">
@@ -743,18 +673,17 @@
                                     </select>
                                 </div>
                                 <div class="inp-line inp-name">
-                                    <input type="text" name="name" placeholder="Vaše ime" required="" oldvalue="">
+                                    <input type="text" name="name" placeholder="Ime i Prezime" required="" oldvalue="">
                                 </div>
                                 <div class="inp-line inp-phone">
                                     <input type="text" name="phone" placeholder="Broj telefona" required="" oldvalue="">
                                 </div>
                                 <div class="button-line">
-                                    <button type="submit">Poruči</button>
+                                    <button type="submit">Poručite</button>
                                 </div>
-                                <div class="text" style="display: none;">*kursga buyurtma berishda</div>
-                                <input type="hidden" name="s1" class="price_field_s1" value="99">
+                                <input type="hidden" name="s1" class="price_field_s1" value="3680">
                                 <input type="hidden" name="s2" class="price_field_s2" value="0">
-                                <input type="hidden" name="s3" class="price_field_s3" value="99">
+                                <input type="hidden" name="s3" class="price_field_s3" value="3680">
                                 <input type="hidden" name="language" value="uz">
                                 <input type="hidden" name="offer_id" value="5515">
                                 <input type="hidden" name="landing" value="12833">
@@ -772,7 +701,7 @@
         <footer class="__footer ptb-30">
             <div class="contain">
                 <p class="copyright t-c"><strong>Copyright <script>document.write(new Date().getFullYear())</script>
-                        </script> &#169;MEZATONE. All Rights Reserved</strong></p>
+                &#169;MEZATONE. All Rights Reserved</strong></p>
                 <p class="t-uc t-c">
                     <a href="doc/terms.html" target="_blank">Uslovi Korišćenja</a>
                     <span class="sep"> | </span>
@@ -793,7 +722,7 @@
         </script>
 
 
-        <div id="kmacb" class="kmacb__manager kmacb__manager-woman1-th" style="display: block;">
+        <div id="kmacb" class="kmacb__manager kmacb__manager-woman1-th" style="display: none;">
             <a href="#link-to/#" modal="kmacb-form">
                 <div class="kmacb__manager-circle"></div>
                 <div class="kmacb__manager-fill"></div>
@@ -812,11 +741,11 @@
                         <p>Reći ćemo vam sve o ovom proizvodu, ponuditi vam najpovoljnije uslove i pružiti vam relevantne promotivne ponude!</p>
                         <form method="POST" action="#link-to">
                             <input type="text" name="name" value="" placeholder="Ime i Prezime" oldvalue="">
-                            <input type="text" name="phone" value="" placeholder="Vaš broj telefona" oldvalue="">
+                            <input type="text" name="phone" value="" placeholder="Broj telefona" oldvalue="">
                             <input type="submit" value="POZOVITE ME">
-                            <input type="hidden" name="s1" class="price_field_s1" value="99">
+                            <input type="hidden" name="s1" class="price_field_s1" value="3680">
                             <input type="hidden" name="s2" class="price_field_s2" value="0">
-                            <input type="hidden" name="s3" class="price_field_s3" value="99">
+                            <input type="hidden" name="s3" class="price_field_s3" value="3680">
                             <input type="hidden" name="language" value="uz">
                             <input type="hidden" name="offer_id" value="5515">
                             <input type="hidden" name="landing" value="12833">
